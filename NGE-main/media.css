@@ -1,0 +1,2765 @@
+
+
+@media (max-width: 320px) {
+
+}
+@media (min-width: 321px) and (max-width: 479px) {
+
+}
+
+
+
+/* Medium mobile devices (landscape and portrait) */
+@media (min-width: 480px) and (max-width: 639px) {
+  /* Styles for medium mobile devices */
+}
+
+/* Large mobile devices (landscape and portrait) */
+@media (min-width: 640px) and (max-width: 767px) {
+  /* Styles for large mobile devices */
+}
+
+/* Small tablets (landscape and portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for small tablets */
+}
+
+/* Large tablets (landscape and portrait) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for large tablets */
+}
+
+/* Small laptops and desktops */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  /* Styles for small laptops and desktops */
+}
+
+/* Large laptops and desktops */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  /* Styles for large laptops and desktops */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (max-width: 320px) */
+@media (min-width: 0px) and (max-width: 321px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  header h2 {
+    margin-top: -12px;
+    margin-left: 0rem;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-left:1rem;
+  }
+  .header img{
+    margin-bottom: 1rem;
+    margin-left:1rem;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+.content h1{
+  font-size: 1.5rem;
+}
+.content p{
+  font-size: 1.2rem;
+}
+  .menu-btn {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    display: block;
+  }
+
+  .menu-btn.clicked + #navbar {
+    display: flex;
+  }
+  .menu-btn i{
+    margin-left: -2rem;
+  }
+  .about-us {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .about-us1 {
+    margin-right: 0;
+    text-align: center;
+  }
+  .about-us1 h2 {
+margin-top: -5rem;
+  }
+  .about-us1 h1 {
+    font-size:1.5rem;
+      }
+.about-us1 p{
+  text-align: justify;
+}
+  .about-us2 {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .about-us2 img {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+
+  .heading-services h1 {
+    font-size: 2rem;
+  }
+
+  .heading-services h2 {
+    margin-top:-4rem;
+  }
+
+  .service-wrapper {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .service-left,
+  .service-right {
+    text-align: center;
+  }
+
+  .service-left img,
+  .service-right img {
+    float: none;
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+
+  .service-left h1,
+  .service-right h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .service-right h1 {
+    margin-left: 0;
+  }
+
+  .service-left p,
+  .service-right p {
+    padding-right: 0;
+    width: 100%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .service-right p {
+    margin-left: 0;
+  }
+
+  .cssbuttons-io-button {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  .third-page h1 {
+    font-size: 2.5rem;
+  }
+
+  .third-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards .cardo {
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+    margin: 0.5rem;
+  }
+  .fourth-page {
+    margin: 2rem;
+  }
+
+  .fourth-page h1 {
+    font-size: 2.5rem;
+    margin-top: -6rem;
+  }
+  .fourth-page h2 {
+    font-size: 1.2rem;
+    /* color:white; */
+  }
+  ul {
+    flex-wrap: wrap;
+  }
+
+  .booking-card {
+    width: 100%;
+    height: 300px;
+    flex: 0 0 100%;
+    margin: 10px 0;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* .informations-container {
+    transform: translateY(0);
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+  } */
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .sub-title {
+    font-size: 0.9em;
+    /* color:white; */
+    margin-top:-1rem;
+    text-align: justify;
+  }
+  .contactss form {
+    grid-template-columns: 1fr;
+  }
+
+  .contactss form .full {
+    grid-column: 1;
+  }
+  .partnerclass h1{
+    font-size: 1.5rem;
+  }
+  .heading h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  /* .logo-wagera h1 {
+    color: #fff;
+    font-size: 1rem;
+  }
+  .example-2{
+    margin: -4rem -52rem -14rem -27rem;
+  }
+  .subscribe-here {
+    margin:29rem 0rem 2rem -50rem;
+  }
+  .subscribe{
+    width:180px;
+  }
+  .example-2 .icon-content a {
+    margin-left: -1rem;
+    margin-right:-1rem
+  }
+  .quick-links ul {
+    margin-left: -5rem;
+    margin-right: -2rem;
+  }
+  .quick-links h2{
+    margin-left: -25rem;
+    margin-top: 10rem;
+    margin-right: -21rem;
+  }
+  .contact-us h2{
+    margin:10rem 0rem 2rem -7rem;
+  }
+  .contact-us ul{
+    margin-left: 6rem;
+    margin-right: 15rem;
+  }
+  .logo-wagera h1{
+    font-size: 1.2rem;
+    margin: -4rem -46rem 4rem -21rem;
+  }
+  .logo-wagera p{
+    font-size: 1rem;
+    margin:-3rem -31rem 4rem -7rem;
+  
+  }
+  .contact-us{
+    margin:0rem 0rem 0rem 0rem ;
+  } */
+  .splitview {
+    min-height: 100vh;
+  }
+
+  .panel {
+    min-height: 50vh;
+  }
+
+  .panel .content {
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .panel .description {
+    width: 80%;
+    position: static;
+    transform: none;
+    margin-bottom: 1rem;
+  }
+
+  .description h1 {
+    font-size: 1rem;
+    margin-top: -4rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  .panel img {
+    width: 80%;
+    position: static;
+    transform: none;
+    margin-right:4rem;
+  }
+
+  .top {
+    width: 100vw;
+  }
+
+  .skewed .top {
+    transform: none;
+    margin-left: 0;
+    width: 100vw;
+  }
+
+  .skewed .top .content {
+    transform: none;
+    margin-left: 29px;
+  }
+
+  .handle {
+    display: none;
+  }
+.example-2{
+  gap: 1rem;
+    margin-left: 2rem;
+}
+
+  .service1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-box-left, .service-box-right {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .service-box-left p, .service-box-right p {
+    font-size: 18px;
+  }
+  .left-wale{
+    margin: -2rem 1rem 2rem 1rem;
+     }
+     .right-wale{
+      margin: 1rem 1rem 8rem 1rem;
+     }
+     .service-box-left p, .service-box-right p{
+      text-align: justify;
+     } 
+     .head-services{
+      margin-top: 4rem;
+     }
+      
+  .gallery {
+    --s: 71px;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+     /* Adjust size for smaller screens */
+    --g: 5px;     /* Adjust gap for smaller screens */
+    --f: 1.3;     /* Adjust zoom factor for smaller screens */
+    margin-left: -0.5rem;   /* Adjust margin for smaller screens */
+    padding-left: 1rem;
+    width: calc(4*var(--s) + 4*var(--g)); /* Adjust width for smaller screens */
+    grid-template-columns: repeat(4, auto); /* Adjust number of columns for smaller screens */
+  }
+
+  .gallery > img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .35s linear;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(0);
+    width: calc(var(--s) * var(--f));
+    height: calc(var(--s) * var(--f));
+  }
+  iframe{
+    display:none;
+  }
+
+  .containerss {
+    padding: 0.5em;
+  }
+  
+  .containerss h1 {
+    font-size: 2rem;
+    margin-top: 116px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.2rem;
+  }
+  
+  .wrapper {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .company-info ul {
+    font-size: 16px;
+  }
+  
+  .company-info img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+  .contactss {
+    margin: 1rem 0;
+  }
+  
+  /* .contactss form {
+    grid-template-columns: 1fr;
+  } */
+.there{
+  position: absolute;
+    top: 57%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    z-index: 1;
+    height: 13rem;
+    width: 20rem;
+}
+.there h1{
+  padding-top: 27px;
+  font-size: 1.2rem;
+}
+.service-content h1 {
+  font-size: 1rem;
+}
+.uperwala {
+  font-size: 1rem;
+  margin-left: 25px;
+}
+.neechewala {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 1rem;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.all{
+  margin-top: 40rem;
+}
+.section-heading{
+  font-size:2rem;
+}
+
+.card-front p{
+  font-size: 1rem;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 50px 0;
+}
+
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .logo-wagera {
+    margin-right: 20px;
+  }
+
+  .logo-wagera h1 {
+    font-size: 1.2rem;
+  }
+
+  .logo-wagera p {
+    font-size: 0.8rem;
+  }
+
+  .quick-links h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .quick-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .quick-links a {
+     font-size: 1rem;
+  }
+
+  .contact-us h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-us li {
+    font-size: 1rem;
+  }
+
+  .subscribe-here h2 {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-here p {
+    font-size: 1rem;
+  }
+
+  .subscribe {
+    height: 60px;
+    width: 120px;
+  }
+
+  .subscribe p {
+    font-size: 8px;
+  }
+
+  .subscribe input {
+    /* padding: 6px; */
+    width: 70%;
+    bottom: 0px;
+  }
+  
+  .subscribe .submit-btn {
+    font-size: 10px;
+    right: -14px;
+  }
+
+  .subscribe button {
+    height: 30px;
+    width: 50px;
+    margin-left: 40px;
+  }
+
+
+/* footer or whatsapp icon ki media query  */
+
+  .footer-copyright-text{
+    font-size: 12px;
+  }
+
+  .whats-app{
+    font-size: 6px;
+    height: 39px;
+    width: 39px;
+  }
+
+  .ri-whatsapp-line{
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+  }
+}
+
+
+/* Smartphones (min-width: 321px) and (max-width: 479px) */
+@media (min-width: 321px) and (max-width: 479px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  header h2 {
+    margin-top: -12px;
+    margin-left: 0rem;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-left:1rem;
+  }
+  .header img{
+    margin-bottom: 1rem;
+    margin-left:1rem;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+.content h1{
+  font-size: 1.1rem;
+}
+.content p{
+  font-size: 0.5rem;
+}
+  .menu-btn {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    display: block;
+  }
+
+  .menu-btn.clicked + #navbar {
+    display: flex;
+  }
+  .menu-btn i{
+    margin-left: -2rem;
+  }
+  .about-us {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .about-us1 {
+    margin-right: 0;
+    text-align: center;
+  }
+  .about-us1 h2 {
+margin-top: -5rem;
+  }
+  .about-us1 h1 {
+    font-size:1.5rem;
+      }
+.about-us1 p{
+  text-align: justify;
+}
+  .about-us2 {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .about-us2 img {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+
+  .heading-services h1 {
+    font-size: 3rem;
+  }
+
+  .heading-services h2 {
+    margin-top:-4rem;
+  }
+
+  .service-wrapper {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .service-left,
+  .service-right {
+    text-align: center;
+  }
+
+  .service-left img,
+  .service-right img {
+    float: none;
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+
+  .service-left h1,
+  .service-right h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .service-right h1 {
+    margin-left: 0;
+  }
+
+  .service-left p,
+  .service-right p {
+    padding-right: 0;
+    width: 100%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .service-right p {
+    margin-left: 0;
+  }
+
+  .cssbuttons-io-button {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  .third-page h1 {
+    font-size: 2.5rem;
+  }
+
+  .third-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards .cardo {
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+    margin: 0.5rem;
+  }
+  .fourth-page {
+    margin: 2rem;
+  }
+
+  .fourth-page h1 {
+    font-size: 2.5rem;
+    margin-top: -6rem;
+  }
+  .fourth-page h2 {
+    font-size: 1.2rem;
+    /* color:white; */
+  }
+  ul {
+    flex-wrap: wrap;
+  }
+
+  .booking-card {
+    width: 100%;
+    height: 300px;
+    flex: 0 0 100%;
+    margin: 10px 0;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .sub-title {
+    font-size: 0.9em;
+    /* color:white; */
+    margin-top:-1rem;
+    text-align: justify;
+  }
+  .contactss form {
+    grid-template-columns: 1fr;
+  }
+
+  .contactss form .full {
+    grid-column: 1;
+  }
+  .partnerclass h1{
+    font-size: 1.5rem;
+  }
+  .heading h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  /* .logo-wagera h1 {
+    color: #fff;
+    font-size: 1rem;
+  }
+  .example-2{
+    margin: -4rem -52rem -14rem -27rem;
+  }
+  .subscribe-here {
+    margin:29rem 0rem 2rem -50rem;
+  }
+  .subscribe{
+    width:180px;
+  }
+  .example-2 .icon-content a {
+    margin-left: -1rem;
+    margin-right:-1rem
+  }
+  .quick-links ul {
+    margin-left: -5rem;
+    margin-right: -2rem;
+  }
+  .quick-links h2{
+    margin-left: -25rem;
+    margin-top: 10rem;
+    margin-right: -21rem;
+  }
+  .contact-us h2{
+    margin:10rem 0rem 2rem -7rem;
+  }
+  .contact-us ul{
+    margin-left: 6rem;
+    margin-right: 15rem;
+  }
+  .logo-wagera h1{
+    font-size: 1.2rem;
+    margin: -4rem -46rem 4rem -21rem;
+  }
+  .logo-wagera p{
+    font-size: 1rem;
+    margin:-3rem -31rem 4rem -7rem;
+  
+  }
+  .contact-us{
+    margin:0rem 0rem 0rem 0rem ;
+  }
+  #contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } */
+  .splitview {
+    min-height: 100vh;
+  }
+
+  .panel {
+    min-height: 50vh;
+  }
+
+  .panel .content {
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .panel .description {
+    width: 80%;
+    position: static;
+    transform: none;
+    margin-bottom: 1rem;
+  }
+
+  .description h1 {
+    font-size: 1rem;
+    margin-top: -4rem;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .panel img {
+    width: 80%;
+    position: static;
+    transform: none;
+    margin-right:4rem;
+    margin-top: -2rem;
+  }
+
+
+  .top {
+    width: 100vw;
+  }
+
+  .skewed .top {
+    transform: none;
+    margin-left: -2px;
+    width: 100vw;
+  }
+
+  .skewed .top .content {
+    transform: none;
+    margin-left: 30px;
+    margin-top: -1rem;
+  }
+
+  .handle {
+    display: none;
+  }
+
+  .service1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-box-left, .service-box-right {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .service-box-left p, .service-box-right p {
+    font-size: 20px;
+  }
+  .left-wale{
+    margin: 0rem 1rem 2rem 2rem;
+     }
+     .right-wale{
+      margin: 1rem 1rem 8rem 1rem;
+     }
+     .service-box-left p, .service-box-right p{
+      text-align: justify;
+     } 
+     .head-services{
+      margin-top: 4rem;
+     }
+
+     
+  .gallery {
+    --s: 78px;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+     /* Adjust size for smaller screens */
+    --g: 5px;     /* Adjust gap for smaller screens */
+    --f: 1.3;     /* Adjust zoom factor for smaller screens */
+    margin-left: -0.5rem;   /* Adjust margin for smaller screens */
+    padding-left: 1rem;
+    width: calc(4*var(--s) + 4*var(--g)); /* Adjust width for smaller screens */
+    grid-template-columns: repeat(4, auto); /* Adjust number of columns for smaller screens */
+  }
+
+  .gallery > img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .35s linear;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(0);
+    width: calc(var(--s) * var(--f));
+    height: calc(var(--s) * var(--f));
+  }
+  iframe{
+    display:none;
+  }
+
+  .containerss {
+    padding: 0.5em;
+  }
+  
+  .containerss h1 {
+    font-size: 2.5rem;
+    margin-top: 118px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.3rem;
+  }
+  
+  .wrapper {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .company-info ul {
+    font-size: 18px;
+  }
+  
+  .company-info img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+  .contactss {
+    margin: 1.5rem 0;
+  }
+  
+  .contactss form {
+    grid-template-columns: 1fr;
+  }
+  .there{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    z-index: 1;
+    height: 10rem;
+    width: 21rem;
+    border-radius: .6em;
+  }
+  .there h1{
+    font-size:1.2rem;
+    padding-top:6px;
+  }
+.all{
+  margin-top: 46rem;
+}
+.card-front p{
+  font-size:1.2rem
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 50px 0;
+}
+
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .logo-wagera {
+    margin-right: 20px;
+  }
+
+  .logo-wagera h1 {
+    font-size: 1.2rem;
+  }
+
+  .logo-wagera p {
+    font-size: 0.8rem;
+  }
+
+  .quick-links h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .quick-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .quick-links a {
+     font-size: 1rem;
+  }
+
+  .contact-us h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-us li {
+    font-size: 1rem;
+  }
+
+  .subscribe-here h2 {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-here p {
+    font-size: 1rem;
+  }
+
+  .subscribe {
+    height: 60px;
+    width: 120px;
+  }
+
+  .subscribe p {
+    font-size: 8px;
+  }
+
+  .subscribe input {
+    /* padding: 6px; */
+    width: 70%;
+    bottom: 0px;
+  }
+  
+  .subscribe .submit-btn {
+    font-size: 10px;
+    right: -14px;
+  }
+
+  .subscribe button {
+    height: 30px;
+    width: 50px;
+    margin-left: 40px;
+  }
+
+
+/* footer or whatsapp icon ki media query  */
+
+  .footer-copyright-text{
+    font-size: 12px;
+  }
+
+  .whats-app{
+    font-size: 6px;
+    height: 39px;
+    width: 39px;
+  }
+
+  .ri-whatsapp-line{
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+  }
+
+}
+
+/* Medium mobile devices (landscape and portrait) */
+@media (min-width: 480px) and (max-width: 639px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  header h2 {
+    margin-top: -12px;
+    margin-left: 0rem;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-left:1rem;
+  }
+  .header img{
+    margin-bottom: 1rem;
+    margin-left:1rem;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .content h1{
+    font-size: 2.5rem;
+  }
+  .description p{
+    font-size: 0rem;
+  }
+    .menu-btn {
+      display: flex;
+      flex-direction: row;
+      margin-left: auto;
+      display: block;
+    }
+    
+    .sub-title {
+      text-align: justify;
+      font-family: 'Poppins';
+      text-decoration: black;
+      color: var(--new-main-color);
+      font-size: 0.2rem;
+      margin-top: -2rem;
+    }
+    .menu-btn.clicked + #navbar {
+      display: flex;
+    }
+    .menu-btn i{
+      margin-left: -2rem;
+    }
+    .about-us1 p {
+      padding-top: 1.5rem;
+      font-size: 1rem;
+      text-align: justify;
+      margin-right: -6rem;
+  }
+  .about-us1 h2{
+    font-size: 2rem;
+    margin: -8rem -22rem 0rem 0rem;
+  }
+  .about-us2 img{
+display: none;
+  }
+  
+  .about-us1 h1{
+    margin-right: -27rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+  }
+  .about-us1 h2{
+    margin-left: 9rem;
+    margin-right: -22rem;
+    margin-top: -8rem;
+}
+  
+  .about-us2{
+    margin-top: -2rem;
+  }
+  .cards .cardo p.tip {
+    font-size: 1rem;
+    font-weight: 700;
+    color:bisque
+  }
+  .cards .cardo p.second-text {
+    
+    font-size: 0.8rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    /* overflow: hidden; */
+    padding-right: 0.5rem;
+  }
+  .heading-services  {
+    margin-top: -7rem;
+  }
+  .heading-services h1{
+    font-size:3.3rem;
+  }
+  .heading-services h2{
+    font-size:2.3rem;
+    margin-top:-7rem;
+  }
+  /* .service-right img{
+    margin-right: -2%;
+    max-width: 102%;
+    height: 10rem;
+    float: right;
+    margin-top: -1rem;
+  } */
+  .service-right img {
+    margin-right: 195%;
+    max-width: 20rem;
+    height: 10rem;
+    float: right;
+    margin-top: -16rem;
+  
+  
+  }
+  .service-left img{
+    margin-right: -5rem;
+    max-width: 36rem;
+    height: 10rem;
+    float: right;
+    margin-top: -16rem;
+    margin-left: 5rem;
+  }
+  .service-left p{
+    padding-right:0rem;
+    text-align: justify;
+    font-size:1.2rem;
+    margin-left: -3rem;
+    margin-right: 29rem;
+  
+  }
+  .service-right p{
+    /* padding-right:0rem; */
+      /* padding-right: 0rem; */
+      font-size: 1.2rem;
+      margin-left: -18rem;
+      margin-right: 47rem;
+      text-align: justify;
+  
+  }
+  .third-page h1{
+    font-size:3rem;
+  }
+  .third-page p{
+    font-size: 2rem;
+  }
+  .fourth-page h2{
+    font-size: 1.2rem;
+  }
+  .partner img{
+    width:10rem;
+    height:10rem;
+  }
+  /* .logo-wagera h1{
+    font-size: 1.5rem;
+    margin:-4rem -46rem 4rem -7rem;
+  }
+  .logo-wagera p{
+    font-size: 1rem;
+    margin: -3rem -46rem 4rem -8rem
+  
+  }
+  .example-2{
+    margin: -4rem -52rem -14rem  -14rem;
+  }
+  .subscribe-here {
+    margin-top:10rem;
+  }
+  .subscribe{
+    width: 164px;
+  }
+  .subscribe p{
+    font-size:1rem;
+  }
+  .example-2 .icon-content a {
+    margin-left: -1rem;
+    margin-right:-1rem
+  }
+  .quick-links ul {
+    margin-left: -5rem;
+    margin-right: -8rem;
+  }
+  .quick-links h2{
+    margin-left: -25rem;
+    margin-top: 10rem;
+    margin-right: -29rem;
+  }
+  .contact-us h2{
+    margin: 10rem 0rem 2rem 6rem
+  }
+  .contact-us ul{
+    margin-left: 5rem;
+    margin-right: -1rem;
+  } */
+  .partner{
+    width:243px;
+  }
+  .service-left h1{
+    font-size: 1.5rem;
+    margin-left: -12rem;
+    margin-top: 14rem;
+    text-align: center;
+  }
+  .service-right h1{
+  
+    font-size: 1.5rem;
+    margin-left: -45rem;
+    margin-top: 14rem;
+    text-align: center;
+  }
+  .cssbuttons-io-button {
+    margin-left:30%;
+  
+  }
+  .fourth-page h1 {
+    margin-top:-9rem;
+  }
+  .fourth-page ul{
+    margin-left: -6rem;
+    margin-right: -5rem;
+  }
+  .splitview {
+    min-height: 100vh;
+  }
+
+  .panel {
+    min-height: 50vh;
+  }
+
+  .panel .content {
+    min-height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .panel .description {
+    width: 80%;
+    position: static;
+    transform: none;
+    margin-bottom: 1rem;
+  }
+
+  .description h1 {
+    font-size: 1rem;
+    margin-top: -4rem;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .panel img {
+    width: 80%;
+    position: static;
+    transform: none;
+    margin-right:4rem;
+    margin-top: -2rem;
+  }
+
+
+  .top {
+    width: 100vw;
+  }
+
+  .skewed .top {
+    transform: none;
+    margin-left: -2px;
+    width: 100vw;
+  }
+
+  .skewed .top .content {
+    transform: none;
+    margin-left: 30px;
+    margin-top: -1rem;
+  }
+
+  .handle {
+    display: none;
+  }
+
+  .service1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-box-left, .service-box-right {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .service-box-left p, .service-box-right p {
+    font-size: 22px;
+  }
+  .left-wale{
+    margin: 0rem 4rem 2rem 4rem;
+     }
+     .right-wale{
+      margin: 1rem 2rem 8rem 3rem;
+     }
+     .service-box-left p, .service-box-right p{
+      text-align: justify;
+     } 
+     .head-services{
+      margin-top: 4rem;
+     }
+
+     
+  .gallery {
+    --s: 115px;
+    margin-top: 6rem;   /* Adjust size for smaller screens */
+    --g: 5px;     /* Adjust gap for smaller screens */
+    --f: 1.3;     /* Adjust zoom factor for smaller screens */
+    margin-left: -0.5rem;   /* Adjust margin for smaller screens */
+    padding-left: 1rem;
+    width: calc(4*var(--s) + 4*var(--g)); /* Adjust width for smaller screens */
+    grid-template-columns: repeat(4, auto); /* Adjust number of columns for smaller screens */
+  }
+
+  .gallery > img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .35s linear;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(0);
+    width: calc(var(--s) * var(--f));
+    height: calc(var(--s) * var(--f));
+  }
+  .containerss {
+    padding: 0.5em;
+  }
+  
+  .containerss h1 {
+    font-size: 2.5rem;
+    margin-top: 122px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.3rem;
+  }
+  
+  .wrapper {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .company-info ul {
+    font-size: 18px;
+  }
+  
+  .company-info img {
+    width: 20rem;
+    height: 20rem;
+    /* margin: 0; */
+    margin: 0rem 0rem 0rem 7rem;
+  }
+  .contactss{
+    margin: 2rem 0rem 0rem 0rem;
+  }
+
+  
+  .contactss form {
+    grid-template-columns: 1fr;
+  }
+  iframe{
+    display: none;
+  }
+  .there{
+    position: absolute;
+    top: 57%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    z-index: 1;
+    height: 15rem;
+    width: 24rem;
+  }
+  .there h1{
+    font-size:1.5rem;
+    padding:1rem;
+  }
+  .card-front p{
+    font-size: 2rem;
+  }
+  .all{
+    margin-top: 43rem;
+  }
+
+  #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0;
+  }
+  
+    .heading h1 {
+      font-size: 1.8rem;
+    }
+  
+    .logo-wagera {
+      margin-right: 20px;
+    }
+  
+    .logo-wagera h1 {
+      font-size: 1.2rem;
+    }
+  
+    .logo-wagera p {
+      font-size: 0.8rem;
+    }
+  
+    .quick-links h2 {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+  
+    .quick-links ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+  
+    .quick-links a {
+       font-size: 1rem;
+    }
+  
+    .contact-us h2 {
+      font-size: 1.2rem;
+    }
+  
+    .contact-us li {
+      font-size: 1rem;
+    }
+  
+    .subscribe-here h2 {
+      font-size: 1.2rem;
+    }
+  
+    .subscribe-here p {
+      font-size: 1rem;
+    }
+  
+    .subscribe {
+      height: 60px;
+      width: 120px;
+    }
+  
+    .subscribe p {
+      font-size: 8px;
+    }
+  
+    .subscribe input {
+      /* padding: 6px; */
+      width: 70%;
+      bottom: 0px;
+    }
+    
+    .subscribe .submit-btn {
+      font-size: 10px;
+      right: -14px;
+    }
+  
+    .subscribe button {
+      height: 30px;
+      width: 50px;
+      margin-left: 40px;
+    }
+  
+  
+  /* footer or whatsapp icon ki media query  */
+
+    .footer-copyright-text{
+      font-size: 12px;
+    }
+  
+    .whats-app{
+      font-size: 6px;
+      height: 39px;
+      width: 39px;
+    }
+  
+    .ri-whatsapp-line{
+      padding: 0;
+      margin: 0;
+      font-size: 45px;
+    }
+
+}
+
+/* Large mobile devices (landscape and portrait) */
+@media (min-width: 640px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2)  {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  body {
+    font-size: 16px;
+  }
+
+  header h2 {
+    margin-top: -12px;
+    margin-left: 0rem;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-left:1rem;
+  }
+  .header img{
+    margin-bottom: 1rem;
+    margin-left:1rem;
+  }
+  .head-services{
+    margin-top:3rem;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+.content h1{
+  font-size: 1.5rem;
+}
+.description p{
+  font-size: 1rem;
+}
+  .menu-btn {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    display: block;
+  }
+
+  .menu-btn.clicked + #navbar {
+    display: flex;
+  }
+  .menu-btn i{
+    margin-left: -2rem;
+  }
+  .about-us1 p {
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    text-align: justify;
+    margin-right: -19rem;
+}
+.about-us1 h2{
+  font-size: 2rem;
+  margin: -8rem -22rem 0rem 0rem;
+}
+.about-us2 img{
+  height: 10rem;
+  width: 10rem;
+  /* border-radius: 50%; */
+  margin-top: -46rem;
+  margin-bottom: 6rem;
+}
+.about-us1 h1{
+  margin-right: -27rem;
+  margin-left: 0rem;
+  font-size: 1.8rem;
+}
+.about-us2{
+  margin-top: -2rem;
+}
+.cards .cardo p.tip {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.heading-services  {
+  margin-top: -7rem;
+}
+.heading-services h1{
+  font-size:3.3rem;
+}
+.heading-services h2{
+  font-size:2.3rem;
+  margin-top:-7rem;
+}
+/* .service-right img{
+  margin-right: -2%;
+  max-width: 102%;
+  height: 10rem;
+  float: right;
+  margin-top: -1rem;
+} */
+.service-right img {
+  margin-right: 172%;
+  max-width: 20rem;
+  height: 14rem;
+  float: right;
+  margin-top: -16rem;
+
+
+}
+.service-left img{
+  margin-right: 9rem;
+  max-width: 36rem;
+  height: 13rem;
+  float: right;
+  margin-top: -16rem;
+  margin-left: 8rem;
+}
+.service-left p{
+  padding-right:0rem;
+  text-align: justify;
+  font-size:1.2rem;
+  margin-left: -2rem;
+  margin-right: 37rem;
+
+}
+.service-right p{
+  /* padding-right:0rem; */
+    /* padding-right: 0rem; */
+    font-size: 1.2rem;
+    margin-left: -38rem;
+    margin-right: 72rem;
+    text-align: justify;
+
+}
+.third-page h1{
+  font-size:3rem;
+}
+.third-page p{
+  font-size: 2rem;
+}
+.fourth-page h2{
+  font-size: 1.2rem;
+}
+.partner img{
+  width:10rem;
+  height:10rem;
+}
+/* .logo-wagera h1{
+  font-size: 1.5rem;
+  margin: -4rem -46rem 4rem 0rem;
+}
+.logo-wagera p{
+  font-size: 1rem;
+  margin: -4rem -46rem 4rem 0rem;
+
+}
+.example-2{
+  margin: -4rem -52rem -14rem -5rem;
+}
+.subscribe-here {
+  margin-top:10rem;
+}
+.subscribe{
+  width:180px;
+}
+.example-2 .icon-content a {
+  margin-left: -1rem;
+  margin-right:-1rem
+}
+.quick-links ul {
+  margin-left: -5rem;
+  margin-right: -8rem;
+}
+.quick-links h2{
+  margin-left: -25rem;
+  margin-top: 10rem;
+  margin-right: -29rem;
+}
+.contact-us h2{
+  margin: 10rem 0rem 2rem 6rem
+}
+.contact-us ul{
+  margin-left: 5rem;
+  margin-right: -1rem;
+} */
+.partner{
+  width:243px;
+}
+.service-left h1{
+
+  font-size: 1.5rem;
+  margin-left: -7rem;
+  margin-top: 17rem;
+  text-align: center;
+}
+.service-right h1{
+
+  font-size: 1.5rem;
+  margin-left: -82rem;
+  margin-top: 14rem;
+  text-align: center;
+}
+.cssbuttons-io-button {
+  margin-left:30%;
+
+}
+.fourth-page h1 {
+  margin-top:-9rem;
+}
+.fourth-page ul{
+  margin-left: -6rem;
+  margin-right: -5rem;
+}
+
+.service1 {
+  flex-direction: column;
+  align-items: center;
+}
+.service-box-left, .service-box-right {
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.left-wale{
+  margin: 0rem -2rem 2rem 2rem;
+}
+   .right-wale{
+ margin:   1rem -2rem 8rem 2rem;
+   }
+   .service-box-left p, .service-box-right p{
+    text-align: justify;
+   } 
+
+   
+  .gallery {
+    /* Adjust size for smaller screens */
+    --s: 156px;
+    margin-top: 6rem;
+    --g: 5px;     /* Adjust gap for smaller screens */
+    --f: 1.3;     /* Adjust zoom factor for smaller screens */
+    margin-left: -0.5rem;   /* Adjust margin for smaller screens */
+    padding-left: 1rem;
+    width: calc(4*var(--s) + 4*var(--g)); /* Adjust width for smaller screens */
+    grid-template-columns: repeat(4, auto); /* Adjust number of columns for smaller screens */
+  }
+
+  .gallery > img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .35s linear;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(0);
+    width: calc(var(--s) * var(--f));
+    height: calc(var(--s) * var(--f));
+  }
+
+  .containerss {
+    padding: 0.75em;
+  }
+  
+  .containerss h1 {
+    font-size: 2.75rem;
+    margin-top: 117px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.4rem;
+  }
+  
+  .wrapper {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .company-info ul {
+    font-size: 18px;
+  }
+  
+  .company-info img {
+    width: 22rem;
+    height: 20rem;
+    /* margin: 0; */
+    margin: 0rem 0rem 0rem 11rem;
+  }
+  .contactss{
+    margin: 2rem 2rem 0rem 2rem;
+  }
+  
+  iframe{
+    display: none;
+  }
+
+  
+  .contactss form {
+    grid-template-columns: 1fr;
+  
+}
+.there{
+  position: absolute;
+    top: 53%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    z-index: 1;
+    height: 13rem;
+    width: 25rem;
+    /* margin-bottom: -22rem; */
+    border-radius: .6em;
+}
+.there h1{
+  font-size:1.8rem;
+}
+.all {
+  margin-top: 28rem;
+}
+/* Media query for contact part  */
+
+  #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px 0;
+  }
+  
+    .heading h1 {
+      font-size: 1.8rem;
+    }
+  
+    .logo-wagera {
+      margin-right: 20px;
+    }
+  
+    .logo-wagera h1 {
+      font-size: 1.2rem;
+    }
+  
+    .logo-wagera p {
+      font-size: 0.8rem;
+    }
+  
+    .quick-links h2 {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+  
+    .quick-links ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+  
+    .quick-links a {
+       font-size: 1rem;
+    }
+  
+    .contact-us h2 {
+      font-size: 1.2rem;
+    }
+  
+    .contact-us li {
+      font-size: 1rem;
+    }
+  
+    .subscribe-here h2 {
+      font-size: 1.2rem;
+    }
+  
+    .subscribe-here p {
+      font-size: 1rem;
+    }
+  
+    .subscribe {
+      height: 60px;
+      width: 120px;
+    }
+  
+    .subscribe p {
+      font-size: 8px;
+    }
+  
+    .subscribe input {
+      /* padding: 6px; */
+      width: 70%;
+      bottom: 0px;
+    }
+    
+    .subscribe .submit-btn {
+      font-size: 10px;
+      right: -14px;
+    }
+  
+    .subscribe button {
+      height: 30px;
+      width: 50px;
+      margin-left: 40px;
+    }
+  
+  
+  /* footer or whatsapp icon ki media query  */
+
+    .footer-copyright-text{
+      font-size: 12px;
+    }
+  
+    .whats-app{
+      font-size: 6px;
+      height: 39px;
+      width: 39px;
+    }
+  
+    .ri-whatsapp-line{
+      padding: 0;
+      margin: 0;
+      font-size: 45px;
+    }
+}
+
+
+/* Small tablets (landscape and portrait) */
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .about-us1 p {
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    text-align: justify;
+    margin-right: -19rem;
+}
+.about-us1 h2{
+  font-size: 2rem;
+  margin: -8rem -22rem 0rem -1rem;
+}
+.about-us2 img{
+  height: 10rem;
+  width: 10rem;
+  /* border-radius: 50%; */
+  margin-top: -46rem;
+  margin-bottom: 6rem;
+}
+.about-us1 h1{
+  margin-right: -27rem;
+  margin-left: -1rem;
+  font-size: 2.5rem;
+}
+.cards .cardo p.tip {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+
+
+  header h2 {
+    margin-top: -12px;
+    margin-left: 0rem;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-left:1rem;
+  }
+  .header img{
+    margin-bottom: 1rem;
+    margin-left:1rem;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+.content h1{
+  font-size: 1.5rem;
+}
+  .menu-btn {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    display: block;
+  }
+  .description p{
+    font-size:1.2rem;
+  }
+  .partnerclass h1{
+    font-size: 2rem;
+  }
+
+  .menu-btn.clicked + #navbar {
+    display: flex;
+  }
+  .menu-btn i{
+    margin-left: -2rem;
+  }
+  .subscribe{
+    width: 150px;
+  }
+  .subscribe p{
+    font-size: 13px;
+  }
+.third-page p{
+  font-size: 2.5rem;
+}
+.heading-services {
+  margin-top: -7rem;
+}
+.heading-services h1{
+  font-size:3.3rem;
+}
+/* .service-right img{
+  margin-right: -2%;
+  max-width: 102%;
+  height: 10rem;
+  float: right;
+  margin-top: -1rem;
+} */
+.service-right img {
+  margin-right: -28%;
+  max-width: 170%;
+  height: 10rem;
+  float: right;
+  margin-top: 4rem;
+}
+.service-left img{
+  margin-right: -28%;
+  max-width: 170%;
+  height: 10rem;
+  float: right;
+  margin-top: 4rem;
+}
+.service-left p{
+  padding-right:0rem;
+  text-align: justify;
+  font-size:1.2rem;
+  margin-left: -2rem;
+  margin-right: 26rem;
+
+}
+.service-right p{
+  /* padding-right:0rem; */
+  margin-right:25rem;
+  text-align: justify;
+  font-size:1.2rem;
+  margin-left: 8rem;
+  margin-right: 15rem;
+
+}
+.third-page h1{
+  font-size:3rem;
+}
+.third-page p{
+  font-size: 2rem;
+}
+.fourth-page h2{
+  font-size: 1.2rem;
+}
+.partner img{
+  width:10rem;
+  height:10rem;
+}
+.logo-wagera h1{
+  font-size: 1.5rem;
+}
+.logo-wagera p{
+  font-size: 1rem;
+}
+.example-2 .icon-content a {
+  margin-left: -1rem;
+  margin-right:-1rem
+}
+.quick-links ul {
+  margin-left:-3rem;
+}
+.quick-links h2{
+  margin-left: -3rem;
+  margin-top: -1rem;
+}
+.partner{
+  width:243px;
+}
+.service-left h1{
+  font-size:1.5rem;
+  margin-left:9rem;
+}
+.service-right h1{
+  font-size:1.5rem;
+}
+
+.service1 {
+  flex-direction: column;
+  align-items: center;
+}
+.service-box-left, .service-box-right {
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.left-wale{
+  margin: 0rem -8rem 2rem 3rem;
+   }
+   .right-wale{
+    margin: 1rem -6rem 8rem 4rem;
+   }
+   .service-box-left p, .service-box-right p{
+    text-align: justify;
+   } 
+   
+.head-services {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-left: 21rem;
+  margin-right: 23rem;
+}
+
+
+.gallery {
+  --s: 186px;
+  --g: 5px;
+  --f: 1.3;
+  margin-left: -0.5rem;
+  padding-left: 1rem;
+  width: calc(4* var(--s) + 4* var(--g));
+  grid-template-columns: repeat(4, auto);
+  margin-top: 5rem; /* Adjust number of columns for smaller screens */
+}
+
+.gallery > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: .35s linear;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  width: calc(var(--s) * var(--f));
+  height: calc(var(--s) * var(--f));
+}
+
+.containerss {
+  padding: 1em;
+}
+
+.containerss h1 {
+ 
+    font-size: 3rem;
+    margin-top: 108px;
+}
+
+
+.containerss h3 {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  padding: 1em;
+}
+
+.company-info ul {
+  font-size: 18px;
+}
+
+.company-info img {
+  width: 53%;
+  height: 21rem;
+  /* margin: 0; */
+  margin: 0rem 0rem 0rem 13rem;
+}
+.contactss{
+  margin: 2rem 24rem 0rem 0rem;
+}
+iframe {
+  width: 25rem;
+  height: 46rem;
+  margin: -48rem 8rem 12rem 30rem;
+}
+
+.contactss form {
+  grid-template-columns: 1fr 1fr;
+}
+.there{
+  height: 16rem;
+    width: 29rem;
+}
+.there h1{
+  font-size: 1.9rem;
+}
+.all{
+  margin: 20rem 0rem 0rem 0rem;
+}
+}
+
+/* Large tablets (landscape and portrait) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    padding: 32px 4px;
+  }
+  .subscribe{
+    width: 178px;
+  }
+.third-page p{
+  font-size: 2.5rem;
+}
+  .navbar li {
+    margin-right: 20px;
+  }
+  .navbar{
+    margin-left: 8rem;
+  }
+  .content h1{
+    font-size: 2rem;
+  }
+  .header img{
+    margin-left: 0rem;
+    margin-right: -19rem;
+    margin-top:-2rem;
+  }
+  .header h2{
+  
+    margin-left: -3rem;
+    margin-bottom: -2rem;
+    margin-right: 0rem;
+    /* padding-top: 5rem; */
+    margin-top: 2rem;
+  }
+
+  .about-us1 p {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-right: -12rem;
+}
+.about-us1 h2{
+  font-size: 3rem;
+  margin: -8rem -22rem 0rem -1rem;
+}
+.about-us1 h1{
+  margin-right: -27rem;
+  margin-left: -1rem;
+  font-size: 2.5rem;
+}
+.service-right img {
+  margin-right: -9%;
+ 
+}
+.informations-container {
+  flex: 1 0 auto;
+  padding: 0px;
+}
+.service-left h1 {
+margin-left:-2rem;
+}
+
+.fourth-page h2 {
+  /* text-align: center; */
+  font-size: 1.5rem;
+}
+.heading-services h2{
+  margin-top: -5rem;
+}
+.heading-services h1{
+  font-size: 4.3rem;
+}
+.service-right img {
+  margin-right: 0%;
+  width: 20rem;
+  margin-top: 3rem;
+}
+.service-left img {
+  margin-right: 0%;
+  width: 20rem;
+  margin-top: 3rem;
+}
+.service-left p{
+  padding-right:0rem;
+  text-align: justify;
+}
+.service-right p{
+  /* padding-right:0rem; */
+  margin-right:25rem;
+  text-align: justify;
+
+}
+.service1 {
+  flex-direction: column;
+  align-items: center;
+}
+.service-box-left, .service-box-right {
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.left-wale{
+  margin:0rem -22rem 2rem 3rem;
+   }
+   .right-wale{
+    margin: 1rem -21rem 8rem 3rem;
+   }
+   .service-box-left p, .service-box-right p{
+    text-align: justify;
+   } 
+
+   
+  .gallery {
+    --s: 243px;
+    --g: 5px;  /* Adjust zoom factor for smaller screens */
+    margin-left: -0.5rem;   /* Adjust margin for smaller screens */
+    padding-left: 1rem;
+    width: calc(4*var(--s) + 4*var(--g)); /* Adjust width for smaller screens */
+    grid-template-columns: repeat(4, auto); /* Adjust number of columns for smaller screens */
+  }
+
+  .gallery > img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .35s linear;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(0);
+    width: calc(var(--s) * var(--f));
+    height: calc(var(--s) * var(--f));
+  }
+  .containerss {
+    padding: 1em;
+  }
+  
+  .containerss h1 {
+    font-size: 3rem;
+    margin-top: 70px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.5rem;
+  }
+  
+  .wrapper {
+    padding: 1em;
+  }
+  
+  .company-info ul {
+    font-size: 20px;
+  }
+  
+  .company-info img {
+    width: 33%;
+    height: 15rem;
+    /* margin: 0; */
+    margin: -26rem 0rem 0rem 46rem;
+  }
+  iframe {
+    width: 35rem;
+    height: 47rem;
+    margin: -48rem 27rem 12rem 35rem;
+}
+  
+  .contactss{
+    margin:2rem 36rem 0rem 0rem;
+  }
+  
+  .contactss form {
+    grid-template-columns: 1fr 1fr;
+  }
+  .there{
+    left: 51%;
+  }
+}
+
+/* Small laptops and desktops */
+@media (min-width: 1200px) and (max-width: 1439px)and (-webkit-min-device-pixel-ratio: 2)  {
+  header {
+    padding: 20px 40px;
+  }
+
+  .navbar li {
+    margin-right: 25px;
+  }
+  .navbar{
+    margin-left: 17rem;
+  }
+  .header img{
+    margin-left: -34px;
+  }
+  .there{
+    width: 44rem;
+  }
+  
+  .content h1{
+    font-size:2.5rem;
+  }
+  .animated-button{
+    margin-right: -4rem;
+    margin-left: -2rem;
+  }
+  .about-us1{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: -5rem 6rem 2rem 2rem;
+  }
+  .about-us1 p{
+    margin-right: -13rem;
+    font-size:1.5rem;
+  }
+  .about-us1 h1{
+    font-size: 2.5rem;
+  }
+  .about-us1 h2{
+    font-size: 3rem;
+    
+  }
+  .heading-services h2{
+    margin-top: -5rem;
+  }
+
+  .heading-services h1{
+    font-size: 4.3rem;
+  }
+  .fourth-page h2{
+    font-size: 1.7rem;
+  }
+  .service1 {
+    flex-direction: row;
+  }
+  .service-box-left, .service-box-right {
+    width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .left-wale{
+    margin:0rem -22rem 2rem 3rem;
+     }
+     .right-wale{
+       margin:-2rem -53rem 8rem -22rem;
+     }
+     .service-box-left p, .service-box-right p{
+      text-align: justify;
+     } 
+     
+  .gallery {
+    --s: 290px;
+    --g: 6px;
+    --f: 14.3;
+    margin-left: 3.5rem; /* Adjust margin for smaller screens */
+    padding-left: 1rem;
+    width: calc(4*var(--s) + 4*var(--g)); /* Adjust width for smaller screens */
+    grid-template-columns: repeat(4, auto); /* Adjust number of columns for smaller screens */
+  }
+
+  .gallery > img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .35s linear;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(0);
+    width: calc(var(--s) * var(--f));
+    height: calc(var(--s) * var(--f));
+  }
+  .containerss {
+    padding: 1em;
+  }
+  
+  .containerss h1 {
+    font-size: 3rem;
+    margin-top: 70px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.5rem;
+  }
+  
+  .wrapper {
+    padding: 1em;
+  }
+  
+  .company-info ul {
+    font-size: 20px;
+  }
+  
+  .company-info img {
+    width: 33%;
+    height: 26rem;
+    /* margin: 0; */
+    margin: -19rem 2rem 0rem 55rem;
+  }
+  
+  .contactss{
+    margin: 2rem 46rem 0rem 0rem;
+  }
+ 
+  iframe {
+    width: 46rem;
+    height: 46rem;
+    margin: -48rem -31rem 12rem 40rem;
+  }
+  .contactss form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+/* Large laptops and desktops */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  header {
+    padding: 20px 50px;
+  }
+
+  .navbar li {
+    margin-right: 30px;
+  }
+
+  .navbar{
+    margin-left: 30rem;
+  }
+  .animated-button{
+    margin-right: -4rem;
+  }
+  .about-us1 p{
+    font-size:1.5rem;
+  }
+  .service1 {
+    flex-direction: row;
+  }
+  .service-box-left, .service-box-right {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .left-wale{
+ margin:   0rem -10rem 2rem 9rem
+  }
+  .right-wale{
+    margin:-2rem -53rem 8rem -22rem;
+  }
+  .service-box-left p, .service-box-right p{
+    text-align: justify;
+   } 
+
+   iframe{
+    margin:-47rem 8rem 12rem 52rem;
+  }
+  .contactss{
+    margin:  2rem 51rem 0rem 0rem;
+  }
+  .containerss {
+    padding: 1em;
+  }
+  
+  .containerss h1 {
+    font-size: 3rem;
+    margin-top: 70px;
+  }
+  
+  .containerss h3 {
+    font-size: 1.5rem;
+  }
+  
+  .wrapper {
+    padding: 1em;
+  }
+  
+  .company-info ul {
+    font-size: 20px;
+  }
+  
+  .company-info img {
+    width: 36%;
+    height: 26rem;
+    /* margin: 0; */
+    margin: -22rem 2rem 0rem 62rem;
+  }
+  
+
+  .contactss form {
+    grid-template-columns: 1fr 1fr;
+  }
+}

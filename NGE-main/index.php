@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Group of Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body> 
+    <header class="header" id="header">
+      <div onclick="window.location.href='#home'" style="cursor:pointer; left: 0; top: 0; z-index: 999;">
+        <img src="WhiteLogo.png" alt="">
+        </div>
+        <div>
+    <h2>National Group of Education</h2>
+  </div>
+    <div class="menu-btn" onclick="toggleMenu()">
+      <i class="ri-menu-line"></i>
+    </div>
+    <!-- <div class="bx bx-menu" id="menu-icon">
+      <box-icon name='menu'></box-icon>
+  </div> -->
+        <nav class="navbar" id="navbar">
+        <a href="index.php">Home</a>
+                <a href="about-us.php">About</a>
+                <a href="services.php">Our Services</a>
+                <a href="gallery.php">Gallery</a>
+                <a href="contact-us.php">Contact Us</a>
+              </nav>
+
+
+            <!-- Apply Now Button..........  -->
+             <button class="animated-button" onclick="openPopup()">
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Apply Now</span>
+              <span class="circle"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </a>
+            </button>
+            
+    </header>
+
+<!-- home section ................. -->
+    <section id="home">
+            <div class="front-page">
+                <img src="National Group of Education.jpeg" alt="">
+        <div class="overlay"></div>
+        </div>
+        <div class="content">
+            <h1>
+                <span class="dream">Dream,</span>
+                <span class="discover">Discover,</span>
+                <span class="achieve">Achieve,</span>
+            </h1>
+        <p>Take the first step towards a transformative educational experience at esteemed overseas colleges. <br>Let us be your compass to a world-class education</p>
+        <a href="about-us.html" class="apply">About Us</a>
+
+    </div>
+    </section>
+
+
+<!-- about us page......................  -->
+<!-- 1st page........................  -->
+    <section id="about">
+        <div class="about-us">
+        <div class="about-us1">
+        <h2>Why Choose Us?</h2>
+        <h1>Why National Group of Education</h1>
+        <p>The National Group of Education is your trusted ally in the pursuit of higher education, both at home and abroad. Our services cover a broad spectrum of academic fields, ensuring that students receive personalized support in securing admissions in reputable institutions worldwide. From simplifying the application process to assisting with scholarship opportunities within India, we are dedicated to making your educational journey seamless and successful. With our commitment to professionalism and excellence, choosing the National Group of Education means taking a confident step towards achieving your academic goals.</p>
+</div>
+        <div class="about-us2">
+                    <!-- Add more content about your educational programs -->
+                    <img src="My first design 1.png" alt="">
+                </div>
+</div>
+<div class="cards">
+  <div class="cardo white">
+      <p class="tip">Expertise</p>
+      <p class="second-text">Benefit from the knowledge and experience of our dedicated team of educational consultants.</p>
+  </div>
+  <div class="cardo white">
+      <p class="tip">Personalized Approach</p>
+      <p class="second-text">We understand that every student is unique. Our personalized approach ensures that you receive tailored guidance suited to your individual needs and aspirations.
+      </p>
+  </div>
+  <div class="cardo white">
+      <p class="tip">Comprehensive Support</p>
+      <p class="second-text">From admissions to career planning, we provide end-to-end support to students, ensuring a seamless and rewarding educational experience.
+      </p>
+  </div>
+  <div class="cardo white">
+    <p class="tip">Proven Track Record</p>
+    <p class="second-text">Our institution boasts a proven track record of success, with countless students achieving their academic and career goals under our guidance.</p>
+</div>
+</div>
+    </section>
+
+
+<!-- our services ............  -->
+<!-- 2nd page.................  -->
+    <section id="services">
+      <div class="second-page">
+      <div class="heading-services">
+      <h2>What we do?</h2>
+      <h1>Our Services</h1>
+  </div>
+
+    <!-- First Div -->
+    <div class="service-wrapper">
+      <div class="service-left">
+          <h1>Medical/Engineering</h1>
+          <p>National Group of Education connects students with premier medical and engineering colleges nationwide. Our rigorous selection ensures access to institutions with top facilities and experienced faculty. Join us to pursue your academic dreams.</p>
+      </div>
+      <div class="service-right">
+          <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D" alt="Service 1 Image">
+    </div>
+  </div>
+  
+  <!-- Second Div -->
+  <div class="service-wrapper alternate">
+      <div class="service-left">
+          <img src="https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fG1lZGljYWx8ZW58MHx8MHx8fDA%3D" alt="Service 2 Image">
+      </div>
+      <div class="service-right">
+          <h1>MBBS Abroad</h1>
+          <p>In today's interconnected world, pursuing MBBS abroad opens doors to diverse opportunities. National Group of Education facilitates seamless admissions in reputable medical universities worldwide. With our expert guidance, aspiring doctors can embark on a transformative educational journey, gaining invaluable international exposure and shaping their medical careers with confidence.</p>
+      </div>
+  </div>
+
+  <!-- Third Div.........  -->
+  <div class="service-wrapper">
+    <div class="service-left">
+        <h1>Management</h1>
+        <p>Understanding the significance of leadership and business expertise, National Group of Education delves into management education. Collaborating with esteemed business schools, we provide programs that empower students with essential skills for success in the dynamic business landscape. From finance to marketing, our management education services pave the way for diverse career pathways.</p>
+    </div>
+    <div class="service-right">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFuYWdlbWVudHxlbnwwfHwwfHx8MA%3D%3D" alt="Service 1 Image">
+    </div>
+</div>
+
+ <!-- Fourth Div.............  -->
+ <div class="service-wrapper alternate">
+  <div class="service-left">
+      <img src="https://images.unsplash.com/photo-1595054103602-b61d4c10c660?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFyYW1lZGljYWx8ZW58MHx8MHx8fDA%3D" alt="Service 2 Image">
+  </div>
+  <div class="service-right">
+      <h1>Paramedical</h1>
+      <p class="texture">In the healthcare sector, paramedical professionals play a crucial role. National Group of Education offers comprehensive paramedical courses, preparing students for careers as medical technicians, radiographers, physiotherapists, and more. With our training programs, students acquire practical skills and theoretical knowledge essential for delivering quality healthcare services and making a difference in people's lives.</p>
+  </div>
+</div>
+
+
+<!-- Fifth Div...................  -->
+<div class="service-wrapper">
+<div class="service-left">
+    <h1>B.Ed/D. El Ed</h1>
+    <p class="texture">National Group of Education recognizes the importance of educators in shaping the future. Our B.Ed. and D.El.Ed. courses prepare aspiring teachers with essential pedagogical skills and teaching methodologies. Through a blend of theory and practical training, we equip educators to inspire and educate the next generation effectively. Join us to embark on a fulfilling journey towards becoming a qualified and impactful educator.</p>
+</div>
+<div class="service-right">
+    <img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc1fHxwcm9mZXNzb3J8ZW58MHx8MHx8fDA%3D" alt="Service 1 Image">
+</div>
+</div>
+ <a href="services.html">
+<button class="cssbuttons-io-button">
+  View All Services
+  <div class="icon">
+    <svg
+      height="24"
+      width="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path
+        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </div>
+</button>
+</a>
+  </section>
+
+
+  <!-- Scholarship page...........  -->
+    <!-- 3rd page scholarship............. -->
+<section id="scholarship">
+        <div class="third-page">
+        <h1>Daily Blogs and News</h1>
+        <p>Stay informed about academic opportunities, including scholarships, internships, and study abroad programs.</p>
+        <div class="cards">
+          <div class="cardo black">
+              <p class="tip">Hover Me</p>
+              <p class="second-text">Lorem Ipsum</p>
+          </div>
+          <div class="cardo black">
+              <p class="tip">Hover Me</p>
+              <p class="second-text">Lorem Ipsum</p>
+          </div>
+          <div class="cardo black">
+              <p class="tip">Hover Me</p>
+              <p class="second-text">Lorem Ipsum</p>
+          </div>
+      </div>
+      </div>
+   </section>
+
+
+ <!-- how it works..................  -->
+    <!-- 4th page................. -->
+<section id="how-it-works">
+        <div class="fourth-page">
+        <h1>How it works ?</h1>
+<ul>
+  <li class="booking-card" style="background-image: url(https://i.pinimg.com/564x/83/42/c7/8342c7fd5cdcc782c244359abc1c2873.jpg);">
+    <div class="informations-container">
+      <h2 class="title">Admission <br> Counselling</h2>
+      <p class="sub-title">Free profile evaluation of students based on academics, work experience, financial background & career goals. Whether you're aiming for top-tier universities in India or seeking opportunities abroad, we facilitate the admission process from start to finish. Our team assists with application documentation, entrance exams, and interview preparation, ensuring a smooth transition into your desired institution.</p>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(https://i.pinimg.com/236x/f3/a1/be/f3a1be846e7937b4ced61e282da59784.jpg);">
+    <div class="informations-container">
+      <h2 class="title">University <br> Course Selection</h2>
+      <p class="sub-title">Our experienced consultants provide personalized guidance to students, helping them navigate the complexities of the education system. From course selection to career counseling, we offer comprehensive support tailored to individual aspirations.
+      </p>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(https://i.pinimg.com/564x/c5/52/0e/c5520e69e6807254e15e43cc314393bd.jpg);">
+    <div class="informations-container">
+      <h2 class="title">Document Guidance & <br>Application</h2>
+      <p class="sub-title">Streamlined Documentation Process: Our team simplifies the documentation process by providing clear instructions and guidance on gathering and submitting required documents for admissions and visa applications.
+        Application Review and Feedback: Receive expert review and feedback on your application documents, ensuring that they meet the standards and requirements of your desired educational institution.
+      </p>
+    </div>
+  </li>
+</ul>
+
+
+<ul>
+  <li class="booking-card" style="background-image: url(https://images.unsplash.com/photo-1628527304948-06157ee3c8a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGF5bWVudHxlbnwwfHwwfHx8MA%3D%3D);">
+    <div class="informations-container">
+      <h2 class="title">Payment to Confirm <br> Admission</h2>
+      <p class="sub-title">Secure and Hassle-Free Payment Options: We offer secure and convenient payment options for confirming your admission, allowing you to complete the process smoothly and without any hassle.
+        Transparent Fee Structure: Our transparent fee structure ensures that you understand the costs associated with confirming your admission, providing clarity and peace of mind.</p>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(https://images.unsplash.com/photo-1553697388-94e804e2f0f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmlzYXxlbnwwfHwwfHx8MA%3D%3D);">
+    <div class="informations-container">
+      <h2 class="title">Visa, Accommodation, and Travel Guidance</h2>
+      <p class="sub-title">Visa Application Guidance: Navigate the visa application process with confidence. Our experienced consultants provide step-by-step guidance on completing visa applications, including document preparation and interview preparation tips.
+        Visa Success Rate: Benefit from our high visa success rate, as we leverage our expertise and experience to maximize your chances of obtaining a visa for your desired study destination.</p>
+    </div>
+  </li>
+  <li class="booking-card" style="background-image: url(Designer.jpeg) ">
+    <div class="informations-container">
+      <h2 class="title">University Invitation <br> Letter</h2>
+      <p class="sub-title">Assistance with Invitation Letter: Our team assists in obtaining invitation letters from universities, which may be required for visa applications or other administrative purposes. We ensure that you have all necessary documentation to support your study abroad journey.</p>
+    </div>
+  </li>
+</ul>
+    </div>
+    </section>
+    
+
+<!-- New..........-->
+<!-- 5th page..........................  -->
+      <div class="splitview skewed">
+        <div class="panel bottom">
+            <div class="content">
+                <div class="description">
+                    <h1>Upon enrollment at NGE</h1>
+                    <p>This is how students express satisfaction after enrolling in the National Group of Education.</p>
+                </div>
+
+                <img src="https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Original">
+            </div>
+        </div>
+
+        <div class="panel top">
+            <div class="content">
+                <div class="description">
+                    <h1>Before joining NGE</h1>
+                    <p>Here's how individuals experience nervousness and uncertainty prior to enrolling in the National Group of Education.</p>
+                </div>
+
+                <img src="https://images.unsplash.com/photo-1637589308599-3478cc55510d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fEluZGlhbiUyMHN0dWRlbnRzfGVufDB8fDB8fHww" alt="Duotone">
+            </div>
+        </div>
+
+        <div class="handle"></div>
+    </div>
+
+<!-- Our partners.................  -->
+<!-- 6th page............  -->
+<section class="partnerclass">
+  <h1>Our Partners</h1>
+  <div class="partner">
+    <div class="partner-track">
+      <div class="partner">
+        <!-- SRM logo  -->
+        <img src="https://scet.berkeley.edu/wp-content/uploads/SRM-Logo-01-1024x502.png" height="100" width="250" alt="" />
+      </div>
+      <div class="partner">
+        <!-- IEM logo  -->
+        <img src="https://naac.iem.edu.in/wp-content/uploads/2021/09/cropped-iem_logo.png" height="100" width="250" alt="" />
+      </div>
+      <div class="partner">
+        <!-- GL Bajaj logo  -->
+        <img src="https://www.glbitm.org/iccemme-2023/img/glbajajtech.png" height="100" width="250" alt="" />
+      </div>
+      <div class="partner">
+        <!-- Galgotia logo  -->
+        <img src="https://i.pinimg.com/originals/88/2d/83/882d838d4b4bc1bc880a324beec1b64e.png" height="100" width="250" alt="" />
+      </div>
+      <div class="partner">
+        <!-- MIT Pune logo  -->
+        <img src="https://www.admissionproviders.com/img/gallery/MIT-WPU-Logo.png" height="100" width="250" alt="" />
+      </div>
+      <div class="partner">
+        <!-- MSRIT logo  -->
+        <img src="https://www.easytourz.com/uploads/Businesslogo/1576651414.png" height="100" width="250" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- the apply now button's popup  -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Contact Us</h2>
+      <form id="contact-form" action="process.php" method="post">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phoneNumber">Contact Number</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+        <label for="courses">Select Courses</label>
+        <select id="courses" name="courses" required>
+            <option value="">Select</option>
+            <option value="Engineering in India">Engineering in India</option>
+            <option value="Medical in India">Medical in India</option>
+            <option value="Management in India">Management in India</option>
+            <option value="MBBS Abroad">MBBS Abroad</option>
+        </select>
+
+        <button class="submit" type="submit">Submit</button>
+      </form>
+  </div>
+</div>
+
+<!-- Contact- footer ......................-->
+
+<!-- 7th page..................  -->
+<div class="heading">
+  <h1>Get In Touch With Us!</h1>
+</div>
+  <div id="contact">
+    <div class="logo-wagera">
+      <h1>NATIONAL GROUP OF EDUCATION</h1>
+      <p>We're dedicated to showing our students the way to a brighter future, <br> guiding them every step of the journey.</p>
+    
+     <ul class="example-2">
+        <li class="icon-content">
+          <a
+            href="https://linkedin.com/"
+            aria-label="LinkedIn"
+            data-social="linkedin"
+          >
+            <div class="filled"></div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-linkedin"
+              viewBox="0 0 16 16"
+              xml:space="preserve"
+            >
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <div class="tooltip">LinkedIn</div>
+        </li>
+        <li class="icon-content">
+          <a href="https://www.facebook.com/" aria-label="Facebook" data-social="facebook">
+            <div class="filled"></div>
+            <svg xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" 
+             width="50"
+            height="50" 
+            fill="currentColor"
+            viewBox="0 0 50 50"  
+            class="icon icons8-Facebook-Filled" >    
+            <path d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z">
+            </path>
+          </svg>
+          </a>
+          <div class="tooltip">Facebook</div>
+        </li>
+        <li class="icon-content">
+          <a
+            href="https://www.instagram.com/"
+            aria-label="Instagram"
+            data-social="instagram"
+          >
+            <div class="filled"></div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+              xml:space="preserve"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <div class="tooltip">Instagram</div>
+        </li>
+        <li class="icon-content">
+          <a href="https://youtube.com/" aria-label="Youtube" data-social="youtube">
+            <div class="filled"></div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-youtube"
+              viewBox="0 0 16 16"
+              xml:space="preserve"
+            >
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+          <div class="tooltip">Youtube</div>
+        </li>
+      </ul>
+      
+    </div>
+    <div class="quick-links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><i class="ri-smartphone-line"></i>987654321</li>
+        <li><i class="ri-mail-line"></i>hltech@gmail.com</li>
+        <li><i class="ri-building-line"></i>address Lorem ipsum dolor sit amet.</li>
+      </ul>
+    </div>
+    <div class="subscribe-here">
+      <h2>Subscribe Now!</h2>
+      <p>Don't miss any updates, subscribe now!</p>
+  <div class="subscribe">
+    <p>SUBSCRIBE</p>
+    <input placeholder="Your e-mail" class="subscribe-input" name="email" type="email">
+    <br>
+    <div class="submit-btn">SUBMIT</div>
+  </div>
+</div>
+  </div>
+
+  <a  class="whats-app" href="https://wa.me/+919430552744?text=Hello" target="_blank">
+    <i class="ri-whatsapp-line"></i>
+</a>
+
+<!-- Footer only...................  -->
+<div class="pg-footer">
+  <footer class="footer">
+   <div class="footer-copyright">
+      <div class="footer-copyright-wrapper">
+        <p class="footer-copyright-text">
+          <a class="footer-copyright-link" href="https://www.hltechindia.com/" target="_self"> ©2024. | Designed By: HL Tech India Pvt Ltd. | All rights reserved. </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

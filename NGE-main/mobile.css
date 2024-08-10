@@ -1,0 +1,821 @@
+/* For tablet size media query....................  */
+
+/* Header media query*/
+ @media screen and (min-width: 768px) and (max-width: 1023px){
+    body, html {
+      width: 100%;
+  }
+  
+    header{
+      padding: 2px;
+      height: auto;
+      width: 100%;
+    }
+  
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+  
+    .navbar a{
+      font-size: 15px;
+      padding: 5px 5px;
+    }
+  
+    .animated-button {
+      font-size: 10px;
+      margin-right: 10px;
+    } 
+  
+    .menu-btn{
+      display: none;
+ }
+   }
+
+/* Home page media query for tablet size  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   .background{
+    height: auto;
+    width: 100%;
+   }
+
+   .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .content{
+    position: relative;
+    padding: 1.2rem 1%;
+   }
+
+   .content h1{
+    font-size: 3.5rem;
+   }
+
+   .content p{
+    font-size: 1.2rem;
+   }
+}
+
+  /* About Media query  */
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    .about-us {
+        flex-direction: column; 
+        text-align: center; 
+    }
+  
+    .about-us1,
+    .about-us2 {
+        margin: 0; 
+    }
+
+    .about-us2 img {
+      height: 15rem;
+      width: 15rem;
+      margin-top: 2rem; 
+    }
+
+    .about-us1 h1{
+      font-size: 2.5rem;
+    }
+  
+    .cards {
+        flex-wrap: wrap; 
+    }
+  
+    .cards .cardo {
+        margin-bottom: 2rem; 
+        height: 300px;
+        width: 290px;
+    }
+  }
+
+/* For Service section ............ */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading-services h1{
+    font-size: 3.5rem;
+  }
+
+ .service-wrapper {
+      flex-direction: column;
+      margin: 2rem; 
+  }
+
+  .service-left,
+  .service-right {
+      width: 100%; 
+      text-align: center; 
+  }
+
+  .service-left img,
+  .service-right img {
+      float: none; 
+      margin-bottom: 1rem; 
+      height: auto;
+      max-width: 70%;
+  }
+
+  .service-left h1, .service-right h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .service-left p, .service-right p{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .cssbuttons-io-button {
+      margin-left: 30%;
+      height: 2.8em; 
+      font-size: 15px;
+  }
+
+  .service-wrapper.alternate .service-left,
+  .service-wrapper:not(.alternate) .service-right {
+      order: -1; 
+  }
+} 
+
+/* Scholarship wala media query  */
+@media screen and (min-width: 768px) and (max-width:1023px){
+  .third-page h1{
+    font-size: 3.2rem;
+  }
+
+  .third-page p{
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}
+
+/* How it works ke section ki media query ..............  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fourth-page {
+    margin: 5rem; 
+  }
+
+  .booking-card {
+    width: calc(100% - 38px); 
+    flex: 0 0 calc(100% - 48px); 
+    margin: 30px 0; 
+  }
+
+  .fourth-page h1{
+    font-size: 2.5rem;
+  }
+ }
+
+/* Media query for handle wala section  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .splitview{
+      min-height: 35vw;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .description h1{
+      /* margin-bottom: 150px; */
+      font-size: 1.2rem;
+    }
+
+    .description p{
+      font-size: 0.8rem;
+      padding-bottom: 10px;
+    }
+
+   .panel{
+    min-height: 35vw;
+    width: 100vw;
+    overflow: hidden;
+   }
+
+   .panel .content{
+    min-height: 35vw;
+    width: 100vw;
+   }
+  
+}
+
+/* Media query for partner wala section  */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.partnerclass h1{
+  font-size: 3rem;
+}
+
+.partner{
+  position: relative;
+  width: 350px;
+  height: 30px;
+}
+}
+
+
+/* Media query for contact part  */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .heading h1{
+    font-size: 2rem;
+  }
+
+  .logo-wagera{
+    margin-right: 30px;
+  }
+
+  .logo-wagera h1{
+    font-size: 1.5rem;
+  }
+
+  .logo-wagera p{
+    font-size: 1rem;
+  }
+
+  .quick-links h2{
+    font-size: 1.2rem;
+  }
+
+  .quick-links a{
+     font-size: 0.8rem;
+  }
+
+  .contact-us h2{
+    font-size: 1.2rem;
+  }
+
+  .contact-us li{
+    font-size: 0.80rem;
+  }
+
+  .subscribe-here h2{
+    font-size: 1.2rem;
+  }
+
+  .subscribe-here p{
+    font-size: 0.80rem;
+  }
+
+  .subscribe{
+    height: 80px;
+    width: 140px;
+  }
+
+  .subscribe p {
+    font-size: 13px;
+  }
+
+  .subscribe input{
+    padding: 8px;
+    width: 72%;
+    bottom: 0px;
+  }
+  
+  .subscribe .submit-btn{
+    font-size: 10px;
+    right: -18px;
+  }
+
+  .subscribe button{
+    height: 40px;
+    width: 80px;
+    margin-left: 50px;
+  }
+}
+
+/* footer or whatsapp icon ki media query  */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .footer-copyright-text{
+    font-size: 15px;
+  }
+
+  .whats-app{
+    font-size: 5px;
+    height: 42px;
+    width: 42px;
+  }
+
+  .ri-whatsapp-line{
+    padding: 0;
+    margin: 0;
+    font-size: 43px;
+  }
+}
+
+
+/* About us page ke liye media query...........  */
+
+/* Front page  */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .there{
+    height: 18rem;
+    width: 38rem;
+    left: 50%;
+  }
+
+  .there h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/* next section  */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .service-content{
+    height: 35vh;
+  }
+
+  .service-content h1{
+    font-size: 2rem;
+  }
+
+  .uperwale{
+    font-size: 1.2rem;
+    margin-bottom: 130px;
+  }
+
+  .neechewala{
+    font-size: 1rem;
+    /* margin-bottom: 80px; */
+  }
+
+  .all{
+    /* min-height: 45vh; */
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .card{
+    width: 600px;
+    height: 300px;
+    /* perspective: 1800px; */
+    margin-top: 40px;
+  }
+
+  .card-front img{
+    height: 160px;
+    margin-top: 20px;
+  }
+
+}
+
+/* Team section ke liye media query  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ .section-heading{
+  font-size: 50px;
+ }
+
+ .container{
+  width: 90%;
+ }
+
+ .profile .name::before{
+  width: 10px;
+  height: 10px;
+ }
+
+ .profile .name{
+  border-radius: 50px;
+ }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .serivce1{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+/* Media query for mobile screen  */
+@media  screen and (max-width: 767px){
+  
+  body, html {
+    width: 100%;
+}
+
+  header{
+    z-index: 1000;
+    padding: 2px;
+    height: auto;
+    width: 100%;
+  }
+
+  header img{
+    margin-right: 1150%;
+    top: 0;
+    left: 0;
+  }
+
+  header h2{
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar a{
+    font-size: 15px;
+    padding: 5px 5px;
+  }
+  
+  .animated-button {
+    display: none;
+  } 
+
+  .menu-btn{
+    display: block;
+    margin-left: 55%;
+    position: absolute;
+    bottom: 35px;
+    list-style: none;
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .background{
+   height: auto;
+   width: 100%;
+  }
+
+  .overlay{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .content{
+   position: relative;
+   padding: 1.2rem 1%;
+  }
+
+  .content h1{
+   font-size: 3rem;
+  }
+
+  .content p{
+   font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .about-us {
+      flex-direction: column; 
+      text-align: center; 
+  }
+
+  .about-us1,
+  .about-us2 {
+      margin: 0; 
+  }
+
+  .about-us2 img {
+    height: 15rem;
+    width: 15rem;
+    margin-top: 2rem; 
+  }
+
+  .about-us1 h1{
+    font-size: 2.5rem;
+  }
+
+  .cards {
+      flex-wrap: wrap; 
+  }
+
+  .cards .cardo {
+      margin-bottom: 2rem; 
+      height: 300px;
+      width: 290px;
+  }
+}
+
+/* Services section media query */
+@media screen and (max-width: 767px){
+  .heading-services h1{
+    font-size: 3rem;
+  }
+
+ .service-wrapper {
+      flex-direction: column;
+      margin: 1rem; 
+  }
+
+  .service-left,
+  .service-right {
+      width: 100%; 
+      text-align: center; 
+  }
+
+  .service-left img,
+  .service-right img {
+      float: none; 
+      /* margin-bottom: 1rem;  */
+      margin-top: 1rem;
+      height: auto;
+      max-width: 100%;
+  }
+
+  .service-left h1, .service-right h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .service-left p, .service-right p{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .cssbuttons-io-button {
+      margin-left: 30%;
+      height: 2.8em; 
+      font-size: 15px;
+  }
+
+  .service-wrapper.alternate .service-left,
+  .service-wrapper:not(.alternate) .service-right {
+      order: 1; 
+  }
+} 
+
+/* how it works  */
+@media screen and (max-width: 767px){
+  .fourth-page {
+    margin: 1rem; 
+  }
+
+  .booking-card {
+    width: calc(100% - 38px); 
+    flex: 0 0 calc(100% - 28px); 
+    margin: 30px 0; 
+  }
+
+  .fourth-page h1{
+    font-size: 3.5rem;
+  }
+ }
+
+ /* Handel hata diya  */
+ @media screen and (max-width: 767px) {
+  .splitview{
+    display: none;
+  }
+
+}
+
+/* Media query for partner wala section  */
+@media screen and (max-width: 767px){
+  .partnerclass h1{
+    font-size: 3.3rem;
+  }
+  
+  .partner{
+    position: relative;
+    width: 280px;
+    height: 20px;
+  }
+}
+
+/* Media query for contact part  */
+@media screen and (max-width: 767px) {
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 50px 0;
+}
+
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .logo-wagera {
+    margin-right: 20px;
+  }
+
+  .logo-wagera h1 {
+    font-size: 1.2rem;
+  }
+
+  .logo-wagera p {
+    font-size: 0.8rem;
+  }
+
+  .quick-links h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .quick-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .quick-links a {
+     font-size: 1rem;
+  }
+
+  .contact-us h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-us li {
+    font-size: 1rem;
+  }
+
+  .subscribe-here h2 {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-here p {
+    font-size: 1rem;
+  }
+
+  .subscribe {
+    height: 60px;
+    width: 120px;
+  }
+
+  .subscribe p {
+    font-size: 8px;
+  }
+
+  .subscribe input {
+    /* padding: 6px; */
+    width: 70%;
+    bottom: 0px;
+  }
+  
+  .subscribe .submit-btn {
+    font-size: 10px;
+    right: -14px;
+  }
+
+  .subscribe button {
+    height: 30px;
+    width: 50px;
+    margin-left: 40px;
+  }
+}
+
+/* footer or whatsapp icon ki media query  */
+@media screen and (max-width: 767px){
+  .footer-copyright-text{
+    font-size: 12px;
+  }
+
+  .whats-app{
+    font-size: 6px;
+    height: 39px;
+    width: 39px;
+  }
+
+  .ri-whatsapp-line{
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+  }
+}
+
+
+/* About page ki media query  */
+/* Front page  */
+@media screen and (max-width: 767px){
+  .there{
+    height: 19rem;
+    width: 24rem;
+    left: 50%;
+  }
+
+  .there h1{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}
+
+/* next section  */
+@media screen and (max-width: 767px){
+  .service-content{
+    height: 35vh;
+  }
+
+  .service-content h1{
+    font-size: 2rem;
+  }
+
+  .uperwala {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .neechewala{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .all{
+    /* min-height: 45vh; */
+    margin-top: 140%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .card{
+    width: 600px;
+    height: 300px;
+    /* perspective: 1800px; */
+    margin-top: 40px;
+  }
+
+  .card-front img{
+    height: 160px;
+    margin-top: 20px;
+  }
+
+}
+
+/* Team section ke liye media query  */
+@media screen and (max-width: 767px) {
+ .section-heading{
+  font-size: 50px;
+ }
+
+ .container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+ }
+
+ .profile .name::before{
+ 
+  width: 10px;
+  height: 10px;
+ }
+
+ .profile .name{
+  border-radius: 50px;
+ }
+}
+
+/* Service page ki styling  */
+
+@media screen and (max-width: 767px){
+
+  .head-services{
+    font-size: 1.5rem;
+  }
+
+  .serivce1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+/* Contact form  */
+@media screen and (max-width:767){
+ 
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
